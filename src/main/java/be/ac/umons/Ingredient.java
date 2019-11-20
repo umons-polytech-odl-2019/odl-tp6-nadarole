@@ -2,7 +2,8 @@ package be.ac.umons;
 
 import java.math.BigDecimal;
 
-public class Ingredient {
+public class Ingredient implements PizzaComponent {
+
     private String name;
     private BigDecimal price;
 
