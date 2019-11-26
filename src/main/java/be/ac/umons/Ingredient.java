@@ -8,6 +8,11 @@ public class Ingredient implements PizzaComponent {
     private BigDecimal price;
 
     public Ingredient() {
+        //on en a besoin de constructeur sans parametre dans app
+    }
+    public Ingredient(String name,BigDecimal price){
+        name=this.name;
+        price=this.price;
     }
 
     public String getName() {

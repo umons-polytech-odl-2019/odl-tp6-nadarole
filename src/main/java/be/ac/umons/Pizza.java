@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Pizza {
     private String  name;
     private BigDecimal price = new BigDecimal(0.0);
-    private ArrayList<Ingredient>listIngredients;
+    protected ArrayList<Ingredient>listIngredients = new ArrayList<>();
 
     public Pizza(String name){
         this.name=name;
@@ -35,4 +35,5 @@ public class Pizza {
     public String toString() {
         return super.toString();
     }
+
 }

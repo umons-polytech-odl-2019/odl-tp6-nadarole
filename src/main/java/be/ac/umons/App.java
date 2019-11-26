@@ -19,10 +19,10 @@ import java.util.Map;
  */
 public class App
 {
-
+    public static Map<String, Ingredient> ingredients = new HashMap<>();//membre de la classe App donc sera stocker dans pizzeria.sql
     public static void main( String[] args )
     {
-        Map<String, Ingredient> ingredients = new HashMap<>();
+
 
         try {
 
